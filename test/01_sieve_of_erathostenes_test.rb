@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative '../01_sieve_of_erathostenes.rb'
+require_relative '../lib/01_sieve_of_erathostenes.rb'
 
 class SieveTest < Minitest::Test
   def test_a_few_primes
