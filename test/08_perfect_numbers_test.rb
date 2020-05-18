@@ -1,4 +1,12 @@
 require 'minitest/autorun'
+gem 'minitest-reporters'
+em 'minitest-reporters'
+gem 'stamp'
+gem 'rake'
+
+gem 'stamp'
+gem 'rake'
+
 require_relative '../lib/08_perfect_numbers'
 
 class PerfectNumberTest < Minitest::Test

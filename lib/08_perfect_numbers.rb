@@ -42,17 +42,12 @@ class PerfectNumber
   def self.classify(number)
     raise RuntimeError if number <= 0
 
-    divisors = [1]
-    2.upto(number - 1) do |num|
-      divisors << num if number.modulo(num).zero?
-    end
+    sum_of_divisors = (1...number).select { |num| number.modulo(num).zero? }.sum
 
-    if divisors.sum < number
-      'deficient'
-    elsif divisors.sum == number
-      'perfect'
-    else
-      'abundant'
+    case 
+    when sum_of_divisors < number then 'deficient'
+    when sum_of_divisors > number then 'abundant'
+    else                               'perfect'
     end
   end
 end
