@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Anagram	lib/05_anagram.rb	/^class Anagram$/;"	c
+AnagramTest	test/05_anagram_test.rb	/^class AnagramTest < Minitest::Test$/;"	c
+BeerSong	lib/12_beer_song.rb	/^class BeerSong$/;"	c
+BeerSong2	lib/12_beer_song.rb	/^class BeerSong2$/;"	c	class:BeerSong
+BeerSongTest	test/12_beer_song_test.rb	/^class BeerSongTest < Minitest::Test$/;"	c
+DNATest	test/06_point_mutations_test.rb	/^class DNATest < Minitest::Test$/;"	c
+Integer	lib/09_roman_numerals.rb	/^class Integer$/;"	c
+Luhn	lib/21_luhn.rb	/^class Luhn$/;"	c
+LuhnTest	test/21_luhn_test.rb	/^class LuhnTest < Minitest::Test$/;"	c
+Octal	lib/02_octal.rb	/^class Octal$/;"	c
+OctalTest	test/02_octal_test.rb	/^class OctalTest < Minitest::Test$/;"	c
+PerfectNumber	lib/08_perfect_numbers.rb	/^class PerfectNumber$/;"	c
+PerfectNumberTest	test/08_perfect_numbers_test.rb	/^class PerfectNumberTest < Minitest::Test$/;"	c
+Phrase	lib/07_word_count.rb	/^class Phrase$/;"	c
+PhraseTest	test/07_word_count_test.rb	/^class PhraseTest < Minitest::Test$/;"	c
+PigLatin	lib/22_pig_latin.rb	/^class PigLatin$/;"	c
+PigLatinTest	test/22_pig_latin_test.rb	/^class PigLatinTest < Minitest::Test$/;"	c
+RomanNumerals	lib/09_roman_numerals.rb	/^module RomanNumerals$/;"	m
+RomanNumeralsTest	test/09_roman_numerals_test.rb	/^class RomanNumeralsTest < Minitest::Test$/;"	c
+Scrabble	lib/11_scrabble_score.rb	/^class Scrabble$/;"	c
+ScrabbleTest	test/11_scrabble_score_test.rb	/^class ScrabbleTest < Minitest::Test$/;"	c
+SecretHandshake	lib/20_secret_handshake.rb	/^class SecretHandshake$/;"	c
+SecretHandshakeTest	test/20_secret_handshake_test.rb	/^class SecretHandshakeTest < Minitest::Test$/;"	c
+Series	lib/00_series.rb	/^class Series$/;"	c
+SeriesTest	test/00_series_test.rb	/^class SeriesTest < Minitest::Test$/;"	c
+Sieve	lib/01_sieve_of_erathostenes.rb	/^class Sieve$/;"	c
+SieveTest	test/01_sieve_of_erathostenes_test.rb	/^class SieveTest < Minitest::Test$/;"	c
+SumOfMultiples	lib/04_sum_of_multiples.rb	/^class SumOfMultiples$/;"	c
+SumTest	test/04_sum_of_multiples_test.rb	/^class SumTest < Minitest::Test$/;"	c
+Trinary	lib/03_trinary.rb	/^class Trinary$/;"	c
+TrinaryTest	test/03_trinary_test.rb	/^class TrinaryTest < Minitest::Test$/;"	c
+addends	lib/21_luhn.rb	/^  def addends$/;"	f	class:Luhn
+chars_in_word_valid?	lib/11_scrabble_score.rb	/^  def chars_in_word_valid?$/;"	f	class:Scrabble
+checksum	lib/21_luhn.rb	/^  def checksum$/;"	f	class:Luhn.addends
+classify	lib/08_perfect_numbers.rb	/^  def self.classify(number)$/;"	F	class:PerfectNumber
+commands	lib/20_secret_handshake.rb	/^  def commands$/;"	f	class:SecretHandshake
+create	lib/21_luhn.rb	/^  def self.create(number)$/;"	F	class:Luhn.addends
+default_verse	lib/12_beer_song.rb	/^  def default_verse(line)$/;"	f	class:BeerSong.verses
+get_hash_key	lib/11_scrabble_score.rb	/^  def get_hash_key(char)$/;"	f	class:Scrabble
+hamming_distance	lib/06_point_mutations.rb	/^  def hamming_distance(other_dna)$/;"	f
+initialize	lib/00_series.rb	/^  def initialize(string)$/;"	f	class:Series
+initialize	lib/01_sieve_of_erathostenes.rb	/^  def initialize(final_number)$/;"	f	class:Sieve
+initialize	lib/02_octal.rb	/^  def initialize(string)$/;"	f	class:Octal
+initialize	lib/03_trinary.rb	/^  def initialize(string)$/;"	f	class:Trinary
+initialize	lib/04_sum_of_multiples.rb	/^  def initialize(*numbers)$/;"	f	class:SumOfMultiples
+initialize	lib/05_anagram.rb	/^  def initialize(string)$/;"	f	class:Anagram
+initialize	lib/06_point_mutations.rb	/^  def initialize(string)$/;"	f
+initialize	lib/07_word_count.rb	/^  def initialize(string)$/;"	f	class:Phrase
+initialize	lib/11_scrabble_score.rb	/^  def initialize(word)$/;"	f	class:Scrabble
+initialize	lib/20_secret_handshake.rb	/^  def initialize(input)$/;"	f	class:SecretHandshake
+initialize	lib/21_luhn.rb	/^  def initialize(number)$/;"	f	class:Luhn
+lyrics	lib/12_beer_song.rb	/^  def lyrics$/;"	f	class:BeerSong.BeerSong2
+lyrics	lib/12_beer_song.rb	/^  def lyrics$/;"	f	class:BeerSong.verses
+match	lib/05_anagram.rb	/^  def match(anagram_list)$/;"	f	class:Anagram
+primes	lib/01_sieve_of_erathostenes.rb	/^  def primes$/;"	f	class:Sieve
+primes1	lib/01_sieve_of_erathostenes.rb	/^  def primes1$/;"	f	class:Sieve
+reverse_odd_words	lib/10_odd_words.rb	/^def reverse_odd_words(text)$/;"	f
+score	lib/11_scrabble_score.rb	/^  def score$/;"	f	class:Scrabble
+score	lib/11_scrabble_score.rb	/^  def self.score(word)$/;"	F	class:Scrabble
+slices	lib/00_series.rb	/^  def slices(length)$/;"	f	class:Series
+test_1	test/09_roman_numerals_test.rb	/^  def test_1$/;"	f	class:RomanNumeralsTest
+test_1024	test/09_roman_numerals_test.rb	/^  def test_1024$/;"	f	class:RomanNumeralsTest
+test_141	test/09_roman_numerals_test.rb	/^  def test_141$/;"	f	class:RomanNumeralsTest
+test_163	test/09_roman_numerals_test.rb	/^  def test_163$/;"	f	class:RomanNumeralsTest
+test_2	test/09_roman_numerals_test.rb	/^  def test_2$/;"	f	class:RomanNumeralsTest
+test_234abc_is_seen_as_invalid_and_returns_0	test/02_octal_test.rb	/^  def test_234abc_is_seen_as_invalid_and_returns_0$/;"	f	class:OctalTest
+test_27	test/09_roman_numerals_test.rb	/^  def test_27$/;"	f	class:RomanNumeralsTest
+test_3	test/09_roman_numerals_test.rb	/^  def test_3$/;"	f	class:RomanNumeralsTest
+test_3000	test/09_roman_numerals_test.rb	/^  def test_3000$/;"	f	class:RomanNumeralsTest
+test_4	test/09_roman_numerals_test.rb	/^  def test_4$/;"	f	class:RomanNumeralsTest
+test_402	test/09_roman_numerals_test.rb	/^  def test_402$/;"	f	class:RomanNumeralsTest
+test_48	test/09_roman_numerals_test.rb	/^  def test_48$/;"	f	class:RomanNumeralsTest
+test_5	test/09_roman_numerals_test.rb	/^  def test_5$/;"	f	class:RomanNumeralsTest
+test_575	test/09_roman_numerals_test.rb	/^  def test_575$/;"	f	class:RomanNumeralsTest
+test_59	test/09_roman_numerals_test.rb	/^  def test_59$/;"	f	class:RomanNumeralsTest
+test_6	test/09_roman_numerals_test.rb	/^  def test_6$/;"	f	class:RomanNumeralsTest
+test_6789_is_seen_as_invalid_and_returns_0	test/02_octal_test.rb	/^  def test_6789_is_seen_as_invalid_and_returns_0$/;"	f	class:OctalTest
+test_8_is_seen_as_invalid_and_returns_0	test/02_octal_test.rb	/^  def test_8_is_seen_as_invalid_and_returns_0$/;"	f	class:OctalTest
+test_9	test/09_roman_numerals_test.rb	/^  def test_9$/;"	f	class:RomanNumeralsTest
+test_911	test/09_roman_numerals_test.rb	/^  def test_911$/;"	f	class:RomanNumeralsTest
+test_93	test/09_roman_numerals_test.rb	/^  def test_93$/;"	f	class:RomanNumeralsTest
+test_9_is_seen_as_invalid_and_returns_0	test/02_octal_test.rb	/^  def test_9_is_seen_as_invalid_and_returns_0$/;"	f	class:OctalTest
+test_a_couple_verses	test/12_beer_song_test.rb	/^  def test_a_couple_verses$/;"	f	class:BeerSongTest
+test_a_few_primes	test/01_sieve_of_erathostenes_test.rb	/^  def test_a_few_primes$/;"	f	class:SieveTest
+test_a_few_verses	test/12_beer_song_test.rb	/^  def test_a_few_verses$/;"	f	class:BeerSongTest
+test_abc1z_is_seen_as_invalid_and_returns_0	test/02_octal_test.rb	/^  def test_abc1z_is_seen_as_invalid_and_returns_0$/;"	f	class:OctalTest
+test_addends	test/21_luhn_test.rb	/^  def test_addends$/;"	f	class:LuhnTest
+test_anagrams_are_case_insensitive	test/05_anagram_test.rb	/^  def test_anagrams_are_case_insensitive$/;"	f	class:AnagramTest
+test_another_verse	test/12_beer_song_test.rb	/^  def test_another_verse$/;"	f	class:BeerSongTest
+test_checksum	test/21_luhn_test.rb	/^  def test_checksum$/;"	f	class:LuhnTest
+test_checksum_again	test/21_luhn_test.rb	/^  def test_checksum_again$/;"	f	class:LuhnTest
+test_classify_abundant	test/08_perfect_numbers_test.rb	/^  def test_classify_abundant$/;"	f	class:PerfectNumberTest
+test_classify_deficient	test/08_perfect_numbers_test.rb	/^  def test_classify_deficient$/;"	f	class:PerfectNumberTest
+test_classify_perfect	test/08_perfect_numbers_test.rb	/^  def test_classify_perfect$/;"	f	class:PerfectNumberTest
+test_complete_hamming_distance_in_small_strand	test/06_point_mutations_test.rb	/^  def test_complete_hamming_distance_in_small_strand$/;"	f	class:DNATest
+test_complicated_word_scores_more	test/11_scrabble_score_test.rb	/^  def test_complicated_word_scores_more$/;"	f	class:ScrabbleTest
+test_configurable_43_47_to_10000	test/04_sum_of_multiples_test.rb	/^  def test_configurable_43_47_to_10000$/;"	f	class:SumTest
+test_configurable_4_6_to_15	test/04_sum_of_multiples_test.rb	/^  def test_configurable_4_6_to_15$/;"	f	class:SumTest
+test_configurable_5_6_8_to_150	test/04_sum_of_multiples_test.rb	/^  def test_configurable_5_6_8_to_150$/;"	f	class:SumTest
+test_configurable_7_13_17_to_20	test/04_sum_of_multiples_test.rb	/^  def test_configurable_7_13_17_to_20$/;"	f	class:SumTest
+test_convenient_scoring	test/11_scrabble_score_test.rb	/^  def test_convenient_scoring$/;"	f	class:ScrabbleTest
+test_count_everything_just_once	test/07_word_count_test.rb	/^  def test_count_everything_just_once$/;"	f	class:PhraseTest
+test_count_multiple_occurrences	test/07_word_count_test.rb	/^  def test_count_multiple_occurrences$/;"	f	class:PhraseTest
+test_count_one_of_each	test/07_word_count_test.rb	/^  def test_count_one_of_each$/;"	f	class:PhraseTest
+test_count_one_word	test/07_word_count_test.rb	/^  def test_count_one_word$/;"	f	class:PhraseTest
+test_create_other_valid_number	test/21_luhn_test.rb	/^  def test_create_other_valid_number$/;"	f	class:LuhnTest
+test_create_valid_number	test/21_luhn_test.rb	/^  def test_create_valid_number$/;"	f	class:LuhnTest
+test_create_yet_another_valid_number	test/21_luhn_test.rb	/^  def test_create_yet_another_valid_number$/;"	f	class:LuhnTest
+test_detect_anagram	test/05_anagram_test.rb	/^  def test_detect_anagram$/;"	f	class:AnagramTest
+test_detect_multiple_anagrams	test/05_anagram_test.rb	/^  def test_detect_multiple_anagrams$/;"	f	class:AnagramTest
+test_detect_simple_anagram	test/05_anagram_test.rb	/^  def test_detect_simple_anagram$/;"	f	class:AnagramTest
+test_does_not_actually_shorten_original_strand	test/06_point_mutations_test.rb	/^  def test_does_not_actually_shorten_original_strand$/;"	f	class:DNATest
+test_does_not_confuse_different_duplicates	test/05_anagram_test.rb	/^  def test_does_not_confuse_different_duplicates$/;"	f	class:AnagramTest
+test_eliminate_anagram_subsets	test/05_anagram_test.rb	/^  def test_eliminate_anagram_subsets$/;"	f	class:AnagramTest
+test_eliminate_anagrams_with_same_checksum	test/05_anagram_test.rb	/^  def test_eliminate_anagrams_with_same_checksum$/;"	f	class:AnagramTest
+test_empty_word_scores_zero	test/11_scrabble_score_test.rb	/^  def test_empty_word_scores_zero$/;"	f	class:ScrabbleTest
+test_hamming_distance_in_off_by_one_strand	test/06_point_mutations_test.rb	/^  def test_hamming_distance_in_off_by_one_strand$/;"	f	class:DNATest
+test_handles_cramped_lists	test/07_word_count_test.rb	/^  def test_handles_cramped_lists$/;"	f	class:PhraseTest
+test_handles_expanded_lists	test/07_word_count_test.rb	/^  def test_handles_expanded_lists$/;"	f	class:PhraseTest
+test_handles_trailing_apostrophe	test/07_word_count_test.rb	/^  def test_handles_trailing_apostrophe$/;"	f	class:PhraseTest
+test_handshake_1000_to_jump	test/20_secret_handshake_test.rb	/^  def test_handshake_1000_to_jump$/;"	f	class:SecretHandshakeTest
+test_handshake_10011_to_double_blink_and_wink	test/20_secret_handshake_test.rb	/^  def test_handshake_10011_to_double_blink_and_wink$/;"	f	class:SecretHandshakeTest
+test_handshake_100_to_close_your_eyes	test/20_secret_handshake_test.rb	/^  def test_handshake_100_to_close_your_eyes$/;"	f	class:SecretHandshakeTest
+test_handshake_10_to_double_blink	test/20_secret_handshake_test.rb	/^  def test_handshake_10_to_double_blink$/;"	f	class:SecretHandshakeTest
+test_handshake_11111_to_double_blink_and_wink	test/20_secret_handshake_test.rb	/^  def test_handshake_11111_to_double_blink_and_wink$/;"	f	class:SecretHandshakeTest
+test_handshake_11_to_wink_and_double_blink	test/20_secret_handshake_test.rb	/^  def test_handshake_11_to_wink_and_double_blink$/;"	f	class:SecretHandshakeTest
+test_handshake_1_to_wink	test/20_secret_handshake_test.rb	/^  def test_handshake_1_to_wink$/;"	f	class:SecretHandshakeTest
+test_identical_word_is_not_anagram	test/05_anagram_test.rb	/^  def test_identical_word_is_not_anagram$/;"	f	class:AnagramTest
+test_ignore_punctuation	test/07_word_count_test.rb	/^  def test_ignore_punctuation$/;"	f	class:PhraseTest
+test_ignores_extra_length_on_original_strand_when_longer	test/06_point_mutations_test.rb	/^  def test_ignores_extra_length_on_original_strand_when_longer$/;"	f	class:DNATest
+test_ignores_extra_length_on_other_strand_when_longer	test/06_point_mutations_test.rb	/^  def test_ignores_extra_length_on_other_strand_when_longer$/;"	f	class:DNATest
+test_include_numbers	test/07_word_count_test.rb	/^  def test_include_numbers$/;"	f	class:PhraseTest
+test_initialize_perfect_number	test/08_perfect_numbers_test.rb	/^  def test_initialize_perfect_number$/;"	f	class:PerfectNumberTest
+test_invalid_handshake	test/20_secret_handshake_test.rb	/^  def test_invalid_handshake$/;"	f	class:SecretHandshakeTest
+test_invalid_number	test/21_luhn_test.rb	/^  def test_invalid_number$/;"	f	class:LuhnTest
+test_invalid_octal_is_decimal_0	test/02_octal_test.rb	/^  def test_invalid_octal_is_decimal_0$/;"	f	class:OctalTest
+test_invalid_trinary_is_decimal_0	test/03_trinary_test.rb	/^  def test_invalid_trinary_is_decimal_0$/;"	f	class:TrinaryTest
+test_invalid_trinary_with_digits_is_decimal_0	test/03_trinary_test.rb	/^  def test_invalid_trinary_with_digits_is_decimal_0$/;"	f	class:TrinaryTest
+test_larger_distance	test/06_point_mutations_test.rb	/^  def test_larger_distance$/;"	f	class:DNATest
+test_more_complicated_slice_that_blows_up	test/00_series_test.rb	/^  def test_more_complicated_slice_that_blows_up$/;"	f	class:SeriesTest
+test_multiple_anagrams	test/05_anagram_test.rb	/^  def test_multiple_anagrams$/;"	f	class:AnagramTest
+test_nil_scores_zero	test/11_scrabble_score_test.rb	/^  def test_nil_scores_zero$/;"	f	class:ScrabbleTest
+test_no_difference_between_empty_strands	test/06_point_mutations_test.rb	/^  def test_no_difference_between_empty_strands$/;"	f	class:DNATest
+test_no_difference_between_identical_strands	test/06_point_mutations_test.rb	/^  def test_no_difference_between_identical_strands$/;"	f	class:DNATest
+test_no_matches	test/05_anagram_test.rb	/^  def test_no_matches$/;"	f	class:AnagramTest
+test_normalize_case	test/07_word_count_test.rb	/^  def test_normalize_case$/;"	f	class:PhraseTest
+test_octal_10_is_decimal_8	test/02_octal_test.rb	/^  def test_octal_10_is_decimal_8$/;"	f	class:OctalTest
+test_octal_11_is_decimal_9	test/02_octal_test.rb	/^  def test_octal_11_is_decimal_9$/;"	f	class:OctalTest
+test_octal_1234567_is_decimal_342391	test/02_octal_test.rb	/^  def test_octal_1234567_is_decimal_342391$/;"	f	class:OctalTest
+test_octal_130_is_decimal_88	test/02_octal_test.rb	/^  def test_octal_130_is_decimal_88$/;"	f	class:OctalTest
+test_octal_17_is_decimal_15	test/02_octal_test.rb	/^  def test_octal_17_is_decimal_15$/;"	f	class:OctalTest
+test_octal_1_is_decimal_1	test/02_octal_test.rb	/^  def test_octal_1_is_decimal_1$/;"	f	class:OctalTest
+test_octal_2047_is_decimal_1063	test/02_octal_test.rb	/^  def test_octal_2047_is_decimal_1063$/;"	f	class:OctalTest
+test_octal_7777_is_decimal_4095	test/02_octal_test.rb	/^  def test_octal_7777_is_decimal_4095$/;"	f	class:OctalTest
+test_other_slices_of_three	test/00_series_test.rb	/^  def test_other_slices_of_three$/;"	f	class:SeriesTest
+test_other_slices_of_two	test/00_series_test.rb	/^  def test_other_slices_of_two$/;"	f	class:SeriesTest
+test_other_word_beginning_e	test/22_pig_latin_test.rb	/^  def test_other_word_beginning_e$/;"	f	class:PigLatinTest
+test_primes	test/01_sieve_of_erathostenes_test.rb	/^  def test_primes$/;"	f	class:SieveTest
+test_scores_are_case_insensitive	test/11_scrabble_score_test.rb	/^  def test_scores_are_case_insensitive$/;"	f	class:ScrabbleTest
+test_scores_other_very_short_word	test/11_scrabble_score_test.rb	/^  def test_scores_other_very_short_word$/;"	f	class:ScrabbleTest
+test_scores_very_short_word	test/11_scrabble_score_test.rb	/^  def test_scores_very_short_word$/;"	f	class:ScrabbleTest
+test_simple_slice_that_blows_up	test/00_series_test.rb	/^  def test_simple_slice_that_blows_up$/;"	f	class:SeriesTest
+test_simple_slices_of_five	test/00_series_test.rb	/^  def test_simple_slices_of_five$/;"	f	class:SeriesTest
+test_simple_slices_of_five_again	test/00_series_test.rb	/^  def test_simple_slices_of_five_again$/;"	f	class:SeriesTest
+test_simple_slices_of_four	test/00_series_test.rb	/^  def test_simple_slices_of_four$/;"	f	class:SeriesTest
+test_simple_slices_of_four_again	test/00_series_test.rb	/^  def test_simple_slices_of_four_again$/;"	f	class:SeriesTest
+test_simple_slices_of_one	test/00_series_test.rb	/^  def test_simple_slices_of_one$/;"	f	class:SeriesTest
+test_simple_slices_of_one_again	test/00_series_test.rb	/^  def test_simple_slices_of_one_again$/;"	f	class:SeriesTest
+test_simple_slices_of_three	test/00_series_test.rb	/^  def test_simple_slices_of_three$/;"	f	class:SeriesTest
+test_simple_slices_of_three_again	test/00_series_test.rb	/^  def test_simple_slices_of_three_again$/;"	f	class:SeriesTest
+test_simple_slices_of_two	test/00_series_test.rb	/^  def test_simple_slices_of_two$/;"	f	class:SeriesTest
+test_simple_slices_of_two_again	test/00_series_test.rb	/^  def test_simple_slices_of_two_again$/;"	f	class:SeriesTest
+test_simple_word_scores_the_number_of_letters	test/11_scrabble_score_test.rb	/^  def test_simple_word_scores_the_number_of_letters$/;"	f	class:ScrabbleTest
+test_small_hamming_distance_in_middle_somewhere	test/06_point_mutations_test.rb	/^  def test_small_hamming_distance_in_middle_somewhere$/;"	f	class:DNATest
+test_sum_to_1	test/04_sum_of_multiples_test.rb	/^  def test_sum_to_1$/;"	f	class:SumTest
+test_sum_to_10	test/04_sum_of_multiples_test.rb	/^  def test_sum_to_10$/;"	f	class:SumTest
+test_sum_to_100	test/04_sum_of_multiples_test.rb	/^  def test_sum_to_100$/;"	f	class:SumTest
+test_sum_to_1000	test/04_sum_of_multiples_test.rb	/^  def test_sum_to_1000$/;"	f	class:SumTest
+test_sum_to_3	test/04_sum_of_multiples_test.rb	/^  def test_sum_to_3$/;"	f	class:SumTest
+test_the_first_verse	test/12_beer_song_test.rb	/^  def test_the_first_verse$/;"	f	class:BeerSongTest
+test_the_whole_song	test/12_beer_song_test.rb	/^    def test_the_whole_song # rubocop:disable Metrics\/MethodLength$/;"	f	class:BeerSongTest
+test_too_large_addend	test/21_luhn_test.rb	/^  def test_too_large_addend$/;"	f	class:LuhnTest
+test_translates_phrase	test/22_pig_latin_test.rb	/^  def test_translates_phrase$/;"	f	class:PigLatinTest
+test_trinary_100_is_decimal_9	test/03_trinary_test.rb	/^  def test_trinary_100_is_decimal_9$/;"	f	class:TrinaryTest
+test_trinary_10_is_decimal_3	test/03_trinary_test.rb	/^  def test_trinary_10_is_decimal_3$/;"	f	class:TrinaryTest
+test_trinary_1122000120_is_32091	test/03_trinary_test.rb	/^  def test_trinary_1122000120_is_32091$/;"	f	class:TrinaryTest
+test_trinary_112_is_decimal_14	test/03_trinary_test.rb	/^  def test_trinary_112_is_decimal_14$/;"	f	class:TrinaryTest
+test_trinary_11_is_decimal_4	test/03_trinary_test.rb	/^  def test_trinary_11_is_decimal_4$/;"	f	class:TrinaryTest
+test_trinary_1_is_decimal_1	test/03_trinary_test.rb	/^  def test_trinary_1_is_decimal_1$/;"	f	class:TrinaryTest
+test_trinary_222_is_26	test/03_trinary_test.rb	/^  def test_trinary_222_is_26$/;"	f	class:TrinaryTest
+test_trinary_2_is_decimal_2	test/03_trinary_test.rb	/^  def test_trinary_2_is_decimal_2$/;"	f	class:TrinaryTest
+test_valid_number	test/21_luhn_test.rb	/^  def test_valid_number$/;"	f	class:LuhnTest
+test_valid_octal_formatted_string_011_is_decimal_9	test/02_octal_test.rb	/^  def test_valid_octal_formatted_string_011_is_decimal_9$/;"	f	class:OctalTest
+test_valid_string_input	test/20_secret_handshake_test.rb	/^  def test_valid_string_input$/;"	f	class:SecretHandshakeTest
+test_verse_0	test/12_beer_song_test.rb	/^  def test_verse_0$/;"	f	class:BeerSongTest
+test_verse_1	test/12_beer_song_test.rb	/^  def test_verse_1$/;"	f	class:BeerSongTest
+test_verse_2	test/12_beer_song_test.rb	/^  def test_verse_2$/;"	f	class:BeerSongTest
+test_whitespace_scores_zero	test/11_scrabble_score_test.rb	/^  def test_whitespace_scores_zero$/;"	f	class:ScrabbleTest
+test_with_apostrophes	test/07_word_count_test.rb	/^  def test_with_apostrophes$/;"	f	class:PhraseTest
+test_with_quotations	test/07_word_count_test.rb	/^  def test_with_quotations$/;"	f	class:PhraseTest
+test_word_beginning_with_a	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_a$/;"	f	class:PigLatinTest
+test_word_beginning_with_ch	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_ch$/;"	f	class:PigLatinTest
+test_word_beginning_with_k	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_k$/;"	f	class:PigLatinTest
+test_word_beginning_with_p	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_p$/;"	f	class:PigLatinTest
+test_word_beginning_with_qu	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_qu$/;"	f	class:PigLatinTest
+test_word_beginning_with_sch	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_sch$/;"	f	class:PigLatinTest
+test_word_beginning_with_th	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_th$/;"	f	class:PigLatinTest
+test_word_beginning_with_thr	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_thr$/;"	f	class:PigLatinTest
+test_word_beginning_with_xe	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_xe$/;"	f	class:PigLatinTest
+test_word_beginning_with_xr	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_xr$/;"	f	class:PigLatinTest
+test_word_beginning_with_ye	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_ye$/;"	f	class:PigLatinTest
+test_word_beginning_with_yt	test/22_pig_latin_test.rb	/^  def test_word_beginning_with_yt$/;"	f	class:PigLatinTest
+test_word_with_consonant_preceding_qu	test/22_pig_latin_test.rb	/^  def test_word_with_consonant_preceding_qu$/;"	f	class:PigLatinTest
+to	lib/04_sum_of_multiples.rb	/^  def self.to(numbers = BASE_NUM, end_num)$/;"	F	class:SumOfMultiples
+to	lib/04_sum_of_multiples.rb	/^  def to(end_num)$/;"	f	class:SumOfMultiples.to
+to_decimal	lib/02_octal.rb	/^  def to_decimal$/;"	f	class:Octal
+to_decimal	lib/03_trinary.rb	/^  def to_decimal$/;"	f	class:Trinary
+to_roman	lib/09_roman_numerals.rb	/^  def to_roman$/;"	f	class:RomanNumerals
+to_roman2	lib/09_roman_numerals.rb	/^  def to_roman2$/;"	f	class:Integer
+translate	lib/22_pig_latin.rb	/^  def self.translate(words)$/;"	F	class:PigLatin
+turn_into_binary	lib/20_secret_handshake.rb	/^  def turn_into_binary(input)$/;"	f	class:SecretHandshake
+valid?	lib/21_luhn.rb	/^  def valid?$/;"	f	class:Luhn.addends
+verse	lib/12_beer_song.rb	/^  def verse(line)$/;"	f	class:BeerSong
+verse	lib/12_beer_song.rb	/^  def verse(line)$/;"	f	class:BeerSong.BeerSong2
+verses	lib/12_beer_song.rb	/^  def verses(start, ending)$/;"	f	class:BeerSong
+verses	lib/12_beer_song.rb	/^  def verses(start, ending)$/;"	f	class:BeerSong.BeerSong2
+word_count	lib/07_word_count.rb	/^  def word_count$/;"	f	class:Phrase
+words	lib/07_word_count.rb	/^  def words$/;"	f	class:Phrase
